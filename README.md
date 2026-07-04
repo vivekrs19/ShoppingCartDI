@@ -11,6 +11,7 @@
 
 
 Why SOLID Matters
+
 Maintainability: Easier to update without breaking unrelated code.
 
 Scalability: New features can be added by extending, not modifying.

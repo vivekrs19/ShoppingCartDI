@@ -20,7 +20,9 @@ Testability: Smaller, focused classes are easier to test.
 
 Flexibility: Encourages loose coupling and modular design.
 
+
 Common Pitfalls
+
 SRP Violation: Putting database logic, business rules, and UI handling in one class.
 
 OCP Violation: Editing existing classes instead of extending them.

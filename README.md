@@ -21,6 +21,7 @@ Testability: Smaller, focused classes are easier to test.
 Flexibility: Encourages loose coupling and modular design.
 
 
+
 Common Pitfalls
 
 SRP Violation: Putting database logic, business rules, and UI handling in one class.
@@ -35,6 +36,7 @@ DIP Violation: Hardcoding dependencies instead of injecting abstractions.
 
 
 1. Single Responsibility Principle (SRP)
+
 public class Product
 {
     public string Name { get; set; }
@@ -156,6 +158,7 @@ public class OrderService
 
 
 How It All Fits Together
+
 SRP → Classes are focused (Cart, CartPrinter).
 
 OCP → Discounts are extensible.

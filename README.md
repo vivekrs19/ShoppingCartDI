@@ -35,7 +35,9 @@ ISP Violation: Large interfaces forcing classes to implement unused methods.
 DIP Violation: Hardcoding dependencies instead of injecting abstractions.
 
 
+
 1. Single Responsibility Principle (SRP)
+
 
 public class Product
 {
@@ -155,6 +157,7 @@ public class OrderService
 - OrderService depends on IPaymentProcessor abstraction.
 
 - You can inject CreditCardProcessor, CashProcessor, or any future payment method.
+
 
 
 How It All Fits Together
